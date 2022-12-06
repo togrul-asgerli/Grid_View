@@ -1,0 +1,35 @@
+﻿#datagrid td, #Grdview th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#datagrid tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#Gdatagrid tr:hover {
+    background-color: #ddd;
+}
+
+#datagrid th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+.btn_search {
+    background-color: #666699; /* Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: none;
+}
+
+    .btn_search:hover {
+        box-shadow: 0 4px 6px 0 rgba(0,0,0,0.17),0 6px 8px 0 rgba(0,0,0,0.18);
+        background-color: #9999FF;
+    }
